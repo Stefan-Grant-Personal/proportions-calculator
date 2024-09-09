@@ -47,10 +47,14 @@ To use this program, you need to follow these steps:
 4. Open PowerShell and navigate to the directory above, for example using
 
     ```powershell
-    cd C:\Users\<name>\Downloads
+    cd 'C:\Users\stefan\Downloads\ProportionsCalculator v1.0.0'
     ```
 
-5. Run `dotnet ProportionsCalculator.dll`.
+5. Run
+
+   ```powershell
+   dotnet ProportionsCalculator.dll
+   ```
 
 ## Mathematical proof
 

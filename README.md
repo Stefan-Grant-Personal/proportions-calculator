@@ -48,7 +48,7 @@ $$m[r_{1}, r_{2}, ... , r_{N}] = [mr_{1}, mr_{2}, ... , mr_{N}]$$
 
 for some multiplier $m$.
 
-To get the ideal solution (the one where we add the least amounts possible), we simply need to find the smallest value of $m$ such that 
+To get the ideal solution (the one where we add the least amounts possible), we simply need to find the smallest value of $m$ such that each quantity in the solution is at least as large as its initial value, i.e.
 
 $$mr_{i} \geq q_{i}$$
 

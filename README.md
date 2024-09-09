@@ -27,16 +27,23 @@ Example:
 
 ## How to use
 
-To use this program, you need to create a file called `input_quantities.json` and fill it out in the following format:
+To use this program, you need to follow these steps:
 
-```json
-{
-    "InitialQuantities": [2,4,5],
-    "DesiredRatios": [1,3,2]
-}
-```
+1. Find the folder containing `ProportionsCalculator.exe`.
 
-Then, run `ProportionsCalculator.exe`.
+2. Create a file called `input_quantities.json` in the same directory as `ProportionsCalculator.exe`, and fill it out in the following format:
+
+    ```json
+    {
+        "InitialQuantities": [2, 4, 5],
+        "DesiredProportions": [1, 3, 2]
+    }
+    ```
+
+    - You can have as many elements in your lists as you like (as long as both lists have the same number of elements).
+    - You can use decimals in your lists.
+
+3. Run `ProportionsCalculator.exe`.
 
 ## Mathematical proof
 

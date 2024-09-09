@@ -1,2 +1,6 @@
-# VSCode workspace files
+# Visual Studio workspace files
 .vs
+
+# Compilation output
+bin/
+obj/

@@ -1,6 +1,10 @@
-# Visual Studio workspace files
-.vs
-
 # Compilation output
 bin/
 obj/
+
+# Visual Studio workspace files
+.vs/
+
+# Visual Studio Publish-related files
+*.user
+*.pubxml

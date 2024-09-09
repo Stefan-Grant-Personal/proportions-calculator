@@ -18,7 +18,7 @@ public class RatiosCalculator
     public static List<double> GetDifferences(
         InputData inputData, List<double> finalQuantities)
     {
-        List<double> differences = [];
+        List<double> differences = new();
         for (int ii = 0; ii < finalQuantities.Count; ii++)
         {
             double diff = finalQuantities[ii] - inputData.InitialQuantities[ii];
@@ -52,7 +52,7 @@ public class RatiosCalculator
         double multiplier,
         List<double> desiredProportions)
     {
-        List<double> result = [];
+        List<double> result = new();
         foreach (double number in desiredProportions)
         {
             // Round to the desired number of decimal places

@@ -5,12 +5,18 @@ using System.Text.Json;
 
 namespace ProportionsCalculator.App;
 
-public class ProportionsCalculatorApp(
-    IUserInteraction userInteraction,
-    IQuantitiesRepository quantitiesRepository)
+public class ProportionsCalculatorApp
 {
-    private readonly IUserInteraction _userInteraction = userInteraction;
-    private readonly IQuantitiesRepository _quantitiesRepository = quantitiesRepository;
+    private readonly IUserInteraction _userInteraction;
+    private readonly IQuantitiesRepository _quantitiesRepository;
+
+    public ProportionsCalculatorApp(
+        IUserInteraction userInteraction,
+        IQuantitiesRepository quantitiesRepository)
+    {
+        _userInteraction = userInteraction;
+        _quantitiesRepository = quantitiesRepository;
+    }
 
     public void Run(string filePath)
     {

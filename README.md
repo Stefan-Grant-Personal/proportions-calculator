@@ -29,9 +29,9 @@ Example:
 
 To use this program, you need to follow these steps:
 
-1. Find the folder containing `ProportionsCalculator.exe`.
+1. Find the directory containing `ProportionsCalculator.dll`.
 
-2. Create a file called `input_quantities.json` in the same directory as `ProportionsCalculator.exe`, and fill it out in the following format:
+2. Edit a file called `input.json` in the same directory as `ProportionsCalculator.dll`, and fill it out in the following format:
 
     ```json
     {
@@ -43,7 +43,11 @@ To use this program, you need to follow these steps:
     - You can have as many elements in your lists as you like (as long as both lists have the same number of elements).
     - You can use decimals in your lists.
 
-3. Run `ProportionsCalculator.exe`.
+3. Open PowerShell and navigate to the directory above, for example using
+    ```powershell
+    cd C:\Users\<name>\Downloads
+    ```
+4. Run `dotnet ProportionsCalculator.dll`.
 
 ## Mathematical proof
 

@@ -2,9 +2,14 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <!-- For self-contained deployment mode, we need to have this set to true.
+         See https://learn.microsoft.com/en-us/dotnet/core/compatibility/serialization/8.0/publishtrimmed -->
+    <!-- Uncomment if needed -->
+    <!-- <JsonSerializerIsReflectionEnabledByDefault>true</JsonSerializerIsReflectionEnabledByDefault> -->
   </PropertyGroup>
 
 </Project>

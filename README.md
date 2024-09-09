@@ -24,14 +24,15 @@ Example:
 - The smallest quantities that satisfy the desired ratio AND are at least as large as the existing quantities `[2, 4, 5]` (since we can't remove metals from an alloy easily) are **`[2.5, 7.5, 5]`**.
 - Thus, we need to add the following amounts to achieve our desired alloy: `[0.5, 3.5, 0]`, i.e. **0.5g of gold, and 3.5g of silver**.
 
-
 ## How to use
 
 To use this program, you need to follow these steps:
 
-1. Find the directory containing `ProportionsCalculator.dll`.
+1. Download a ZIP file from the `builds` folder of this repository.
 
-2. Edit a file called `input.json` in the same directory as `ProportionsCalculator.dll`, and fill it out in the following format:
+2. Extract the contents of the ZIP file. You will get a directory containing `ProportionsCalculator.dll` and some other files.
+
+3. Edit a file called `input.json` in the same directory, and fill it out in the following format:
 
     ```json
     {
@@ -43,11 +44,13 @@ To use this program, you need to follow these steps:
     - You can have as many elements in your lists as you like (as long as both lists have the same number of elements).
     - You can use decimals in your lists.
 
-3. Open PowerShell and navigate to the directory above, for example using
+4. Open PowerShell and navigate to the directory above, for example using
+
     ```powershell
     cd C:\Users\<name>\Downloads
     ```
-4. Run `dotnet ProportionsCalculator.dll`.
+
+5. Run `dotnet ProportionsCalculator.dll`.
 
 ## Mathematical proof
 
